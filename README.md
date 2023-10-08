@@ -1,6 +1,10 @@
 # Calculadora Indice de massa corporal (IMC)
 
-### Calculadora que calcula o IMC da pessoa, usando html,css e JS
+### Calculadora que calcula o IMC da pessoa
+
+![html](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 
 <img width="1470" alt="SCR-20231008-bnon" src="https://github.com/Alessandro-Saling/calculadora_imc/assets/127244656/50f8569f-5ed8-4233-9b59-b9388db4d0d7">
