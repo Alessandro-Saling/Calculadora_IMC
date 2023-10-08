@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Calculo de IMC</title>
+</head>
+
+<body>
+    <header>
+        <!-- Logo -->
+        <div id="logo">
+            <h1>DR. SAÚDE</h1>
+        </div>
+
+        <!-- Menu -->
+        <nav id="header-menu">
+            <ul id="header-menu__lista">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#calcular">Calcular</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#fale-conosco">Fale conosco</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Botoes -->
+        <div id="botoes">
+            <button id="light">Light</button>
+            <button id="dark">Dark</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <div class="linha">
+                    <div class="coluna-metade">
+                        <div class="linha quebra-de-linha" id="home-conteudo">
+                            <div class="coluna" id="home-textos">
+                                <h1>SUA CALCULADORA DE IMC</h1>
+                                <H3>Sua saúde em primeiro lugar</H3>
+                            </div>
+                            <div class="coluna" id="home-botoes">
+                                <a href="#calcular">
+                                    <button id="home-botao-calcular">Calcular</button>
+                                </a>
+                                
+                                <button id="home-botao-saiba-mais">Saiba mais</button>
+                            </div>
+                        </div>
+                        <div class="linha">
+                        </div>
+                    </div>
+                    <div class="coluna-metade">
+                        <img src="./assets/imagens/banner.png" alt="Medica sorrindo" id="home-imagem">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="calcular">
+            <div class="container">
+                <div class="linha quebra-de-linha justify-center align-center">
+                    <div class="coluna d-flex justify-center" id="calcular-textos">
+                        <h1 id="calcular-resultado">Calcular</h1>
+                    </div>
+                    <div class="coluna" id="calcular-formulario">
+                        <div id="form">
+                            <div>
+                                <input type="number" placeholder="Peso" id="peso">
+                            </div>
+                            <div>
+                                <input type="number" placeholder="Altura" id="altura">
+                            </div>
+                            <div>
+                                <button onclick="calcular()">Calcular</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div id="sobre-conteudo">
+                <div id="sobre-conteudo-textos">
+                    <h1>SOBRE NÓS</h1>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptates, nostrum sunt porro
+                        esse illo tempora perspiciatis labore enim nesciunt dolor dolores nisi voluptas temporibus ipsa
+                        dolore consequatur cumque vel?</h3>
+                </div>
+                <div id="sobre-conteudo-cards">
+                    <div class="card">
+                        <img src="./assets/imagens/_FER9280-Editar.jpg" alt="Foto do Alessandro">
+                        <h1>Alessandro</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam nihil dignissimos sit, quasi
+                            veniam facilis autem minima commodi, voluptatibus laboriosam, corporis quo minus pariatur
+                            nobis tempore sequi fugiat doloremque! Consectetur?</p>
+                    </div>
+                </div>
+                <div id="sobre-conteudo-cards">
+                    <div class="card">
+                        <img src="./assets/imagens/_FER9280-Editar.jpg" alt="Foto do Alessandro">
+                        <h1>Alessandro</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam nihil dignissimos sit, quasi
+                            veniam facilis autem minima commodi, voluptatibus laboriosam, corporis quo minus pariatur
+                            nobis tempore sequi fugiat doloremque! Consectetur?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fale-conosco">
+
+            <div class="fale-conosco-conteudo">
+                <div class="fale-conosco-coluna">
+                    <h1>Dr.Saúde</h1>
+                </div>
+                <div class="fale-conosco-coluna">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Calcular</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Fale Conosco</a></li>
+                    </ul>
+                </div>
+                <div class="fale-conosco-coluna">
+                    <h1>Fale Conosco</h1>
+                    <div class="card">
+                        <form>
+                            <div>
+                                <input type="text" placeholder="Nome" id="card-nome">
+                            </div>
+                            <div>
+                                <input type="email" placeholder="E-mail" id="card-email">
+                            </div>
+                            <div>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                            </div>
+                            <div id="card-button">
+                                <button>Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
