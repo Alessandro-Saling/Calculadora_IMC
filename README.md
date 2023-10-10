@@ -7,6 +7,13 @@
 ![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 
+
+Esse projeto é baseado em calculo do indice de massa corporal, famoso IMC no projeto que esta aqui você coloca a sua peso conforme exemplo : 90 e a altura 1.80 
+parte de Backend ele vai fazer o calcuo da formula do IMC que seria peso/altura² e assim sairia o resultado do seu IMC
+
+
+Para Execução do calculo é apenas abrir o index.html e colocar o peso e altura que ele já dara o resultado 
+
 <img width="1470" alt="SCR-20231008-bnon" src="https://github.com/Alessandro-Saling/calculadora_imc/assets/127244656/50f8569f-5ed8-4233-9b59-b9388db4d0d7">
 
 ![SCR-20231008-bnix](https://github.com/Alessandro-Saling/calculadora_imc/assets/127244656/37340d99-a69d-48c9-9ae8-21cc09aa814d)
