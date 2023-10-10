@@ -8,11 +8,19 @@
 
 
 
-Esse projeto é baseado em calculo do indice de massa corporal, famoso IMC no projeto que esta aqui você coloca a sua peso conforme exemplo : 90 e a altura 1.80 
-parte de Backend ele vai fazer o calcuo da formula do IMC que seria peso/altura² e assim sairia o resultado do seu IMC
+Meu projeto é uma aplicação web que calcula o Índice de Massa Corporal (IMC) e utiliza tecnologias como HTML, CSS e JavaScript. O IMC é uma medida que avalia a relação entre meu peso e altura, fornecendo informações sobre a composição corporal e indicando se estou dentro de faixas de peso consideradas saudáveis.
 
+Para utilizar essa aplicação, eu:
 
-Para Execução do calculo é apenas abrir o index.html e colocar o peso e altura que ele já dara o resultado 
+Abro o arquivo index.html em um navegador da web. Isso é possível graças ao HTML, que define a estrutura da página e seus elementos.
+
+Na interface da aplicação, encontro campos onde insiro meu peso e altura. Essa parte é tratada com o auxílio do HTML e do CSS, que estilizam a página e criam um layout amigável.
+
+Ao inserir esses valores, o código JavaScript no backend aplica a fórmula do IMC (IMC = peso / altura²).
+
+Como resultado, o JavaScript exibe meu IMC calculado, proporcionando uma indicação da minha condição de peso.
+
+Este projeto, construído com HTML, CSS e JavaScript, é uma ferramenta útil para quem deseja monitorar sua saúde e composição corporal. Se tiver dúvidas adicionais ou precisar de mais informações sobre as tecnologias utilizadas ou o projeto em si, sinta-se à vontade para perguntar. Estou aqui para ajudar!
 
 <img width="1470" alt="SCR-20231008-bnon" src="https://github.com/Alessandro-Saling/calculadora_imc/assets/127244656/50f8569f-5ed8-4233-9b59-b9388db4d0d7">
 
